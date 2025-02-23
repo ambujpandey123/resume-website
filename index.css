@@ -1,0 +1,174 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+    }
+
+    #border {
+      margin-top: 8vh;
+      width: 800px;
+      height: 1198px;
+      background: rgba(200, 200, 200, .5);
+      display: flex;
+      justify-content: space-between;
+      box-shadow: rgba(66, 68, 90, .5) 30px 30px 35px, rgba(66, 68, 90, .3) -10px -8px 25px;
+    }
+
+    #img img {
+      opacity: .9;
+      display: inline-block;
+      width: 200px;
+      display: block;
+      border: 1px solid rgba(10, 10, 10, .51);
+      margin: 20px 0;
+      border-radius: 25px;
+    }
+
+    #side {
+      height: 100%;
+      width: 35%;
+      padding-left: 20px;
+      /*background:green;*/
+      background: rgba(220, 220, 220, .4);
+    }
+
+    #main {
+      height: 100%;
+      width: 60%;
+      padding-right: 1.5px;
+    }
+
+    #myname {
+      font-size: 65px;
+      margin: 142px 0;
+      font-family: 'Bree Serif', serif;
+    }
+
+    .yellow {
+      font-size: 20px;
+      border-left: 5px solid #816429;
+      color: #A2792F;
+      padding-left: 8px;
+      margin: 25px 0;
+      font-family: 'Bree Serif', serif;
+    }
+
+    .blue {
+      color: rgba(13, 200, 180, 1);
+      margin: 20px 0 7px 0;
+      font-family: 'Alatsi', sans-serif;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #email,
+    #internet,
+    .lang {
+      display: flex;
+      align-items: center;
+    }
+
+    #internet i {
+      color: rgba(13, 200, 180, 1);
+    }
+
+    i {
+      font-size: 30px;
+      margin: 5px;
+    }
+
+    @media only screen and (max-width:570px) {
+  #border {
+    width: 320px;
+    height: 475px;
+    overflow: hidden;
+  }
+
+  #myname {
+    font-size: 26px;
+    margin: 44px 0;
+  }
+
+  #img img {
+    width: 65px;
+    margin: 8px 0;
+    border-radius: 10px;
+  }
+
+  #side {
+    padding-left: 6px;
+  }
+
+  .yellow {
+    font-size: 10px;
+    border-left: 3px solid #B27E30;
+    padding-left: 6px;
+    margin: 6px 0;
+  }
+
+  .blue {
+    margin: 4.5px 0 2.5px 0;
+  }
+
+  i {
+    font-size: 12px;
+    margin: 2px;
+  }
+
+  div {
+    font-size: 8px;
+  }
+}
+    /*========================================*/
+
+    @media screen and (max-width:880px) and (min-width:570px) {
+      #border {
+        width: 420px;
+        height: 660px;
+        overflow: hidden;
+      }
+
+      #myname {
+        font-size: 35px;
+        margin: 75px 0;
+      }
+
+      #img img {
+        width: 100px;
+        margin: 15px 0;
+        border-radius: 10px;
+      }
+
+      #side {
+        padding-left: 12px;
+      }
+
+      .yellow {
+        font-size: 12px;
+        border-left: 3.5px solid #B27E30;
+        padding-left: 6px;
+        margin: 8px 0;
+      }
+
+      .blue {
+        margin: 7.5px 0 4px 0;
+      }
+
+      i {
+        font-size: 17px;
+        margin: 2.5px;
+      }
+
+      div {
+        font-size: 10px;
+      }
+
+    }
